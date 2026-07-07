@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_filters',
 
     'core',
 
@@ -173,7 +174,14 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 20,
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend',
+        'rest_framework.filters.SearchFilter',
+        'rest_framework.filters.OrderingFilter',
+    ],
 }
+
+
 
 AUTH_USER_MODEL = 'accounts.User'
 OPENROUTER_API_KEY = os.getenv('OPENROUTER_API_KEY')
@@ -215,3 +223,4 @@ if os.getenv('DATABASE_URL'):
         env='DATABASE_URL',
         conn_max_age=600
     )
+
