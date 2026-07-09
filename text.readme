@@ -1,279 +1,554 @@
-# 🚀 CustomerOS AI
+# CustomerOS AI
+### Customer Success Intelligence Platform with AI Insights, Product Analytics, and Business Intelligence
 
-## Overview
+## Live Demo
 
-CustomerOS AI is an AI-powered Customer Success, Product Analytics, Business Intelligence, and Predictive Analytics platform designed to help SaaS companies understand customer health, reduce churn, prioritize product decisions, and drive business growth.
+**Application URL**
 
-The platform combines operational workflows, analytics, machine learning, and AI-driven insights into a single unified system.
+https://customeros-ai-4l18.onrender.com/login/
 
----
+**Demo Credentials**
 
-# 🎯 Project Vision
+```text
+Username: priya_pm
+Password: demo1234
+```
 
-Build an end-to-end customer intelligence platform that demonstrates:
+# CustomerOS AI
+### Customer Success Intelligence Platform with AI Insights, Product Analytics, and Business Intelligence
 
-* Product Management
-* AI Product Management
-* Product Analytics
-* Data Analytics
-* Business Analytics
-* Customer Success Operations
-* Business Intelligence
-* Applied Machine Learning
-
----
-
-# 🗺️ Product Roadmap
-
-## Phase 1: Customer Success Platform ✅
-
-Core business workflows and operational intelligence.
-
-### Features
-
-* Authentication & Role-Based Access Control (RBAC)
-* Customer Accounts Management
-* Feedback Management
-* Support Ticket Management
-* Risk Flag Tracking
-* Account Health Scoring
-* Feature Request Management
-* Product Roadmap Planning
-
-### Demonstrates
-
-* Product Management
-* Customer Success Operations
-* SaaS Workflow Design
+[![Django](https://img.shields.io/badge/Django-5.x-green)]()
+[![DRF](https://img.shields.io/badge/Django_REST_Framework-API-red)]()
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)]()
+[![Power_BI](https://img.shields.io/badge/Power_BI-Analytics-yellow)]()
+[![Render](https://img.shields.io/badge/Render-Deployed-purple)]()
 
 ---
 
-## Phase 2: AI Intelligence Layer ✅
 
-AI-powered decision support and customer intelligence.
+# Overview
 
-### Features
+CustomerOS AI is an end-to-end Customer Success and Product Intelligence platform built to help SaaS organizations monitor customer health, identify churn risks, prioritize product improvements, analyze customer feedback, and generate AI-powered recommendations.
 
-* AI Insights Engine
-* AI Copilot
-* Intent Detection
-* Context Retrieval
-* Natural Language Q&A
+The platform combines operational workflows, AI-assisted decision support, REST APIs, and business intelligence dashboards into a single system.
 
-### Demonstrates
+The project was designed around three core business questions:
 
-* AI Product Management
-* LLM Integration
-* AI-Assisted Decision Making
+1. Which customers are at risk and how much revenue is exposed?
+2. What are customers asking for and are we delivering it?
+3. Is the AI delivering valuable insights effectively?
 
 ---
 
-## Phase 3: Portfolio & Documentation 🚧
+# Project Status
 
-### Features
+### Core Platform
 
-* GitHub README
-* Product Case Study
-* Architecture Diagram
-* Demo Screenshots
-* Technical Documentation
+ Authentication & Role-Based Access Control
 
-### Demonstrates
+ Customer Account Management
 
-* Product Communication
-* Product Strategy
-* Stakeholder Storytelling
+ Customer Health Monitoring
 
----
+ Risk Flag Management
 
-## Phase 4: API Platform 🚧
+ Feedback Management
 
-### Features
+ Feature Request Management
 
-* Django REST Framework APIs
-* JWT Authentication
-* Swagger / OpenAPI Documentation
-* Search, Filtering & Pagination
-
-### Demonstrates
-
-* Technical Product Management
-* API Design
-* System Architecture
+ Ticket Management
 
 ---
 
-## Phase 5: Business Intelligence 🚧
+### AI Features
 
-### Features
+ AI Insights Engine
 
-* Power BI Executive Dashboard
-* Customer Health Dashboard
-* Product Analytics Dashboard
-* KPI Monitoring & Reporting
+ AI Copilot Assistant
 
-### Demonstrates
+ Churn Risk Explanations
 
-* Data Analytics
-* Business Analytics
-* Executive Reporting
+ Feature Demand Analysis
+
+ Insight Acceptance Tracking
 
 ---
-
-## Phase 6: Predictive Analytics 🚧
-
-### Features
-
-* Churn Prediction Model
-* Customer Segmentation
-* Risk Forecasting
-* Predictive Health Scoring
-
-### Demonstrates
-
-* Machine Learning
-* Predictive Analytics
-* Data Science Applications
-
----
-
-## Phase 7: Product Analytics 🚧
-
-### Features
-
-* Google Analytics 4 (GA4)
-* Mixpanel Integration
-* Funnel Analysis
-* Cohort Analysis
-* Retention Analytics
-
-### Demonstrates
-
-* Product Analytics
-* Growth Analytics
-* User Behavior Analysis
-
----
-
-## Phase 8: Advanced AI 🚧
-
-### Features
-
-* RAG-Based AI Copilot
-* Root Cause Analysis
-* Context-Aware Recommendations
-* Intelligent Action Suggestions
-
-### Demonstrates
-
-* Applied AI Systems
-* Retrieval-Augmented Generation (RAG)
-* AI Product Strategy
-
----
-
-## Phase 9: Production Excellence 🚧
-
-### Features
-
-* Automated Testing
-* CI/CD Pipelines
-* Monitoring & Observability
-* Performance Optimization
-
-### Demonstrates
-
-* Production Engineering
-* Software Quality
-* Operational Excellence
-
----
-
-# 🛠️ Technology Stack
-
-### Backend
-
-* Django
-* Django REST Framework
-* PostgreSQL
-
-### AI & ML
-
-* OpenRouter
-* LLM Integration
-* Scikit-Learn
-* Predictive Analytics
 
 ### Analytics
 
-* Power BI
-* GA4
-* Mixpanel
+ Customer Health Dashboard
+
+ Feature Demand Dashboard
+
+ AI Intelligence Dashboard
+
+ Power BI Reporting
+
+---
+
+### APIs
+
+ Django REST Framework
+
+ Pagination
+
+ Nested Serializers
+
+ Filtering
+
+ JSON API Responses
+
+---
 
 ### Deployment
 
-* Render
-* Gunicorn
-* WhiteNoise
+ PostgreSQL
 
-### Data
+ Render Deployment
 
-* SQL
-* Python
-* Pandas
+ Production Environment
 
 ---
 
-# 👩‍💼 Target Roles
+### Future Enhancements
 
-This project is designed to showcase skills relevant to:
+ Predictive Churn Modeling
 
-* AI Product Manager
-* Product Manager
-* Associate Product Manager (APM)
-* Product Analyst
-* Data Analyst
-* Business Analyst
-* Product Operations Analyst
-* Customer Success Operations Analyst
-* Business Intelligence Analyst
-* Growth Analyst
+ Advanced Sentiment Analysis
+
+ RAG-Based Knowledge Retrieval
+
+ Customer Journey Analytics
+
+ Real-Time Event Tracking
 
 ---
 
-# 📈 Business Impact
+# Key Features
 
-CustomerOS AI helps organizations:
+## Customer Success
 
-* Identify at-risk customers early
-* Reduce customer churn
-* Prioritize product investments
-* Improve customer satisfaction
-* Centralize customer intelligence
-* Enable data-driven decision making
-* Scale customer success operations
+Monitor customer health and proactively identify churn risks.
 
----
+Features:
 
-# 🚀 Current Status
-
-### Completed
-
-* Customer Success Platform
-* AI Insights Engine
-* AI Copilot
-* Authentication & RBAC
-* Deployment on Render
-
-### In Progress
-
-* API Platform
-* Business Intelligence Dashboards
-* Predictive Analytics
-* Product Analytics Integration
+- Customer Accounts
+- Revenue Tracking
+- Health Scores
+- Risk Tiers
+- Health Snapshots
+- Revenue-at-Risk Analysis
 
 ---
 
-# 🌟 Vision
+## Product Intelligence
 
-CustomerOS AI aims to become a unified intelligence platform that combines customer success, product analytics, business intelligence, predictive analytics, and AI-powered decision support into a single SaaS operating system.
+Capture customer feedback and translate it into roadmap decisions.
+
+Features:
+
+- Feature Requests
+- Customer Voting
+- Feedback Themes
+- Ticket Categorization
+- Product Prioritization
+
+---
+
+## AI Intelligence
+
+Generate insights using large language models and support decision-making workflows.
+
+Features:
+
+- AI Recommendations
+- Churn Risk Insights
+- Feature Demand Analysis
+- AI Copilot Assistant
+- Insight Acceptance Tracking
+- AI Performance Monitoring
+
+---
+
+# Power BI Dashboards
+
+The analytics layer is built around three executive dashboards.
+
+---
+
+## 1. Customer Health Overview
+
+### Business Question
+
+> Which customers are at risk and how much recurring revenue is exposed?
+
+### Metrics
+
+- Total MRR
+- MRR At Risk
+- Customer Health Scores
+- Risk Tier Distribution
+- Component Score Breakdown
+
+### Business Value
+
+Enables Customer Success teams to identify at-risk customers early and prioritize retention efforts before churn occurs.
+
+### Dashboard
+
+![Customer Health Dashboard](screenshots/customer-health.png)
+
+---
+
+## 2. Feature Demand Analysis
+
+### Business Question
+
+> What are customers asking for and are we delivering it?
+
+### Metrics
+
+- Feature Requests by Vote Count
+- Feature Pipeline Status
+- Feature Shipped Rate
+- Support Ticket Categories
+- Feedback Themes
+
+### Business Value
+
+Provides a structured framework for prioritizing product investments based on measurable customer demand.
+
+### Dashboard
+
+![Feature Demand Dashboard](screenshots/feature-demand.png)
+
+---
+
+## 3. AI Intelligence Dashboard
+
+### Business Question
+
+> Is the AI generating useful insights efficiently?
+
+### Metrics
+
+- AI Acceptance Rate
+- Total AI Insights
+- Insight Status Distribution
+- Insights by Type
+- Average AI Response Time
+
+### Business Value
+
+Measures AI quality, user trust, and model performance.
+
+### Dashboard
+
+![AI Intelligence Dashboard](screenshots/ai-dashboard.png)
+
+---
+
+# REST API
+
+The platform exposes business data through Django REST Framework APIs.
+
+## Available Endpoints
+
+```text
+/api/v1/accounts/
+/api/v1/feedback/
+/api/v1/tickets/
+/api/v1/health/
+/api/v1/risk-flags/
+/api/v1/ai-insights/
+```
+
+---
+
+## Example Response
+
+### Accounts API
+
+```http
+GET /api/v1/accounts/
+```
+
+```json
+{
+  "id": "00a2ec7a-1509-4c81-b4e7-d3f516d436ba",
+  "name": "Hooli Inc",
+  "plan_tier": "starter",
+  "mrr": "14028.00",
+  "organization_name": "Acme SaaS Inc",
+  "health_score": {
+    "composite_score": 57.3,
+    "risk_tier": "moderate"
+  }
+}
+```
+
+### AI Insights API
+
+```http
+GET /api/v1/ai-insights/
+```
+
+```json
+{
+  "id": "6bbf2f4d-4c0d-4f7a-a8a0-9e4f65fd5f3f",
+  "insight_type": "churn_risk",
+  "status": "accepted",
+  "model_used": "meta-llama/llama-3.1-8b-instruct"
+}
+```
+
+---
+
+# System Architecture
+
+```text
+Users
+ │
+ ▼
+CustomerOS AI Platform
+ │
+ ├── Authentication & RBAC
+ ├── Customer Accounts
+ ├── Health Engine
+ ├── Risk Flags
+ ├── Feedback Management
+ ├── Feature Requests
+ ├── Ticket Management
+ ├── AI Insights Engine
+ └── AI Copilot
+         │
+         ▼
+      OpenRouter
+         │
+         ▼
+      Llama Models
+
+PostgreSQL Database
+         │
+         ▼
+       Power BI
+```
+
+---
+
+# Technology Stack
+
+## Backend
+
+- Python
+- Django
+- Django REST Framework
+
+## Database
+
+- PostgreSQL
+
+## Frontend
+
+- Django Templates
+- Bootstrap
+
+## AI Layer
+
+- OpenRouter
+- Llama 3 Models
+
+## Analytics
+
+- Power BI
+
+## Deployment
+
+- Render
+
+## Version Control
+
+- Git
+- GitHub
+
+---
+
+# What This Project Demonstrates
+
+## For Product Manager / AI Product Manager Roles
+
+End-to-end product thinking—from customer problems and KPI definition through customer health monitoring, feedback analysis, AI-assisted prioritization, and roadmap visibility. Every major module is tied to a measurable business outcome.
+
+## For Data Analyst Roles
+
+A multi-module PostgreSQL data model, REST APIs with nested serialization, and Power BI dashboards tracking business KPIs including MRR at risk, customer health, AI acceptance rate, feature demand, and support trends.
+
+## For AI Product Manager Roles
+
+A working AI layer powered by OpenRouter and Llama models that generates churn-risk explanations, feature demand insights, AI recommendations, and natural language interactions through an AI Copilot.
+
+---
+
+# Known Limitations
+
+## Sentiment Analysis
+
+Current demo data contains synthetic sentiment scores generated for testing and dashboard validation.
+
+Example:
+
+```text
+"The new analytics view is exactly what we needed."
+sentiment_score = -0.5
+```
+
+These scores do not currently originate from a production NLP sentiment model.
+
+Future iterations will include automated sentiment analysis using a dedicated NLP pipeline.
+
+---
+
+## Demo Data
+
+Some records were generated for demonstration and testing purposes.
+
+Examples include:
+
+- Sample customers
+- Sample AI insights
+- Dashboard seed data
+
+These records exist to demonstrate workflows and reporting capabilities.
+
+---
+
+# Local Setup
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Neha-0212/customeros-ai.git
+cd customeros-ai
+```
+
+---
+
+## Create Virtual Environment
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Configure Environment Variables
+
+Create a `.env` file:
+
+```env
+SECRET_KEY=your_secret_key
+
+DEBUG=True
+
+DATABASE_URL=your_database_url
+
+OPENROUTER_API_KEY=your_api_key
+```
+
+---
+
+## Run Migrations
+
+```bash
+python manage.py migrate
+```
+
+---
+
+## Create Superuser
+
+```bash
+python manage.py createsuperuser
+```
+
+---
+
+## Start Development Server
+
+```bash
+python manage.py runserver
+```
+
+Application will be available at:
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+# Screenshots
+
+Create a folder:
+
+```text
+screenshots/
+├── customer-health.jpg
+├── feature-demand.jpg
+└── ai-dashboard.jpg
+```
+
+
+---
+
+# Future Roadmap
+
+### Analytics
+
+- Predictive Churn Scoring
+- Customer Journey Analytics
+- Product Adoption Tracking
+
+### AI
+
+- Sentiment Analysis Pipeline
+- Retrieval-Augmented Generation (RAG)
+- AI Feedback Loop Training
+
+### Platform
+
+- Event Tracking
+- Real-Time Notifications
+- Advanced Reporting
+
+---
+
+# Author
+
+**Neha** — aspiring Product Manager / AI Product Manager focused on customer intelligence, analytics, and AI-powered product systems.
+
+GitHub: https://github.com/Neha-0212
+
+LinkedIn: https://linkedin.com/in/neha-kanaki
+
+---
+
+If you found this project interesting, consider giving the repository a ⭐.
