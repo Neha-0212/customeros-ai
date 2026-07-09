@@ -274,17 +274,7 @@ GET /api/v1/accounts/
 ```
 
 ```json
-{
-  "id": "00a2ec7a-1509-4c81-b4e7-d3f516d436ba",
-  "name": "Hooli Inc",
-  "plan_tier": "starter",
-  "mrr": "14028.00",
-  "organization_name": "Acme SaaS Inc",
-  "health_score": {
-    "composite_score": 57.3,
-    "risk_tier": "moderate"
-  }
-}
+{"id":"c0972ffc-93da-4856-b56a-b8d7bd8f820c","name":"Gringotts FinTech","industry":"Retail","plan_tier":"growth","mrr":"13777.00","contract_renewal_date":"2027-02-14","is_active":true,"organization_name":"Acme SaaS Inc","health_score":{"composite_score":68.8,"risk_tier":"moderate"},"created_at":"2026-07-04T03:52:51.187601Z"},
 ```
 
 ### AI Insights API
@@ -295,11 +285,17 @@ GET /api/v1/ai-insights/
 
 ```json
 {
-  "id": "6bbf2f4d-4c0d-4f7a-a8a0-9e4f65fd5f3f",
-  "insight_type": "churn_risk",
-  "status": "accepted",
-  "model_used": "meta-llama/llama-3.1-8b-instruct"
-}
+      "id": "1ae6566d-a97d-415e-a037-9071761646f7",
+      "insight_type": "copilot_answer",
+      "status": "generated",
+      "customer_account": null,
+      "customer_account_name": null,
+      "response_text": "**At-Risk Accounts:**\n\nBased on the context, the following accounts are most at risk this week:\n\n1. **Pied Piper**: With a composite score of 53.4, which is below the healthy threshold, and a MRR of $5858.00, this account is considered At-Risk.\n2. **Oscorp Digital**: With a composite score of 43.7, which is also below the healthy threshold, and a MRR of $3818.00, this account is considered At-Risk.\n3. **LexCorp Cloud**: With a composite score of 54.3, which is below the healthy threshold, and a MRR of $10320.00, this account is considered At-Risk.\n\n**Key Insights:**\n\n* All three accounts have a composite score below the healthy threshold, indicating potential issues with their usage or adoption.\n* Pied Piper and Oscorp Digital have lower MRRs compared to LexCorp Cloud, which may indicate smaller or more vulnerable customer bases.\n\n**Recommendations:**\n\n* Prioritize outreach and support to these At-Risk accounts to address any potential issues and prevent churn.\n* Review account-specific data to identify root causes of their at-risk status and develop targeted strategies for improvement.\n* Consider offering additional support or resources to help these accounts achieve a healthier score and reduce their risk of churn.",
+      "model_used": "meta-llama/llama-3-8b-instruct",
+      "latency_ms": 9265,
+      "rejection_reason": "",
+      "created_at": "2026-07-04T04:43:44.272082Z"
+    },
 ```
 
 ---
